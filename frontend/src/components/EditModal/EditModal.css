@@ -1,0 +1,22 @@
+.edit-modal__form {
+    width: 400px;
+    padding: 30px;
+    background-color: var(--white);
+    text-align: center;
+
+}
+
+.edit-modal__form h1 {
+    font-size: 1.4rem;
+}
+
+.edit-form__submit {
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    padding: 8px 10px;
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+    border-radius: 10px;
+}

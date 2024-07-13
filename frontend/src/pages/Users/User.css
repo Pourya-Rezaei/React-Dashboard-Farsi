@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.edit-user__info-input-group {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 0 20xp;
+    margin-top: 20px;
+}
+
+.edit-user__info-input {
+    outline: none;
+    border: none;
+    background-color: unset;
+    padding: 8px 10px;
+    font-size: 1.1rem;
+    width: 100%;
+}
